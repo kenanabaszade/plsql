@@ -8,3 +8,16 @@ document.addEventListener("scroll", function () {
       bg.classList.remove("active");
     }
   });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".author-card2").forEach(card => {
+      const expandButton = card.querySelector(".expand");
+      const hideableContent = card.querySelector(".hideablecontent");
+  
+      expandButton.addEventListener("click", function () {
+        hideableContent.classList.toggle("expanded");
+        expandButton.classList.toggle("expanded");
+      });
+    });
+  });
+  

@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PL/SQL</title>
-
-    <link rel="icon" type="image/png" href="/imgs/logo.png" sizes="200x200" >
+    <link rel="icon" type="image/png" href="/imgs/logo.png" sizes="200x200" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/style.css" />
   </head>
@@ -26,13 +25,13 @@
             <li class="nav-item"><a class="nav-link" href="#">Tərəfdaşlar</a></li>
           </ul>
         </div>
-        <a class="btn btn-danger ms-3 " href="tel:+994559409565"><img class="phoneicon" src="/icons/el_phone-alt.svg" /> +994 55 940 95 65</a>
+        <a class="btn btn-danger ms-3" href="tel:+994559409565"><img class="phoneicon" src="/icons/el_phone-alt.svg" /> +994 55 940 95 65</a>
       </div>
     </nav>
 
     <section class="bgimage">
       <div class="container">
-        <div class="row align-items-center justify-content-center plsql " id="firstcontent">
+        <div class="row align-items-center justify-content-center plsql" id="firstcontent">
           <div class="col-6 plsqltext">
             <h2>PL/SQL</h2>
             <p>
@@ -48,7 +47,7 @@
 
         <div class="row align-items-center justify-content-center plsql secondcontent" id="secondcontent">
           <div class="col-6">
-            <img src="/imgs/plsql1.png" class="plsqlbook"/>
+            <img src="/imgs/plsql1.png" class="plsqlbook" />
           </div>
           <div class="col-6 plsqltext">
             <p>
@@ -66,43 +65,97 @@
         </div>
       </div>
     </section>
-
-    <div class="container muellifler py-5">
-      <h2 class="py-3">Müəlliflər</h2>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="author-card">
-            <img src="/imgs/samirm.png" alt="Samir Səmədov" />
-            <div class="author-details">
-              <h3>Samir Səmədov</h3>
-              <p>PhD in Technical Sciences; OCM - Oracle DBA Certified Master; SQL & PL/SQL expert OCP.</p>
-              <p>PL/SQL — bu məhz SQL programçısında çatışmayan bir vasitədir ki, onun köməyilə Oracle verilənlər bazasının imkanlarından tam istifadə etmək olar.</p>
-            </div>
-          </div>
+    <div class="container muellifler py-3">
+      <h2>Müəlliflər</h2>
+      
+      <!-- Author Card 1 -->
+      <div class="author-card"
+           data-img="/imgs/samirmodal.png"
+           data-name="Samir Səmədov"
+           data-bio='<p>2005-ci ildə Bakı Dövlət Universitetinin Tətbiqi Riyaziyyat və Kibernetika fakültəsinin İnformatika ixtisasını fərqlənmə diplomu ilə bitirib. 2008-ci ildə magistratura pilləsini fərqlənmə diplomu ilə tamamlayaraq aspiranturaya daxil olmuş və texnika üzrə fəlsəfə doktoru dərəcəsini almışdır. 15 ildən artıq fərqli İT sahələrində (Bank, Card &amp; Data Processing, dövlət sektoru) çalışmışdır.</p><p>2013-cü ildən Oracle şirkətinin elit qrupunun üzvü olaraq Oracle 11g Certified Master (OCM) titulunu qazanmışdır. Oracle imtahanları üzrə uğurlar:</p><ul><li>120-007: Oracle9i: SQL</li><li>1Z0-031: Oracle9i: DBA Fundamentals I</li><li>1Z0-033: Oracle9i: Performance Tuning</li><li>120-101: PL/SQL proqramlaşdırma</li><li>1Z0-032: Oracle9i: DBA Fundamentals 2</li><li>1Z0-040: Oracle Database 10g: Yeni xüsusiyyətlər</li><li>1Z0-047: Oracle Database: SQL Certified Expert</li><li>1Z0-050: Oracle Database 11g: Yeni xüsusiyyətlər</li><li>1Z0-046: Oracle Database 10g: Linux-da Oracle İdarəçiliyi</li><li>Oracle 11g Certified Master 2 Practice Days Exam</li><li>1Z0-060: Oracle Database 12c-ə keçid</li><li>120-931: Oracle Autonomous Database Cloud 2019 Certified Specialist</li><li>1Z0-1072: Oracle Cloud Infrastructure 2019 Architect Associate</li><li>1Z0-1085: Oracle Cloud Infrastructure Foundations 2020</li></ul><p>Həmçinin SQL və digər texnologiyalar üzrə geniş təcrübəyə malikdir.</p><p>Ətraflı məlumat üçün: <a href="http://www.ocm.az" target="_blank">www.ocm.az</a></p>'
+      >
+        <img src="/imgs/samirm.png" alt="Samir Səmədov" />
+        <div class="author-details">
+          <h3>Samir Səmədov</h3>
+          <p>PhD in Technical Sciences; OCM - Oracle DBA Certified Master; SQL &amp; PL/SQL expert OCP.</p>
+          <p>PL/SQL — bu məhz SQL programçısında çatışmayan bir vasitədir ki, onun köməyilə Oracle verilənlər bazasının imkanlarından tam istifadə etmək olar.</p>
         </div>
-        <div class="col-md-12">
-          <div class="author-card">
-            <img src="/imgs/raminm.png" alt="Ramin Səmədov" />
-            <div class="author-details">
-              <h3>Ramin Səmədov</h3>
-              <p>PhD in Technical Sciences; Oracle PL/SQL Developer Certified Associate.</p>
-              <p>
-                PL/SQL tam funksional, genişlənə bilən və Oracle mühitinde çalışan proqramlaşdırma dilidir, Oracle verilenler bazası əsasında bizness tətbiqlərinin və xidmətlərinin yaradılmasında
-                proqramçının əvəzedil-məz alətidir.
-              </p>
-            </div>
-          </div>
+      </div>
+      
+      <!-- Author Card 2 -->
+      <div class="author-card"
+           data-img="/imgs/raminmodal.png"
+           data-name="Ramin Səmədov"
+           data-bio=' <p>
+            Texnika üzrə Fəlsəfə Doktoru, 15 ildən artıq İT sahəsi üzrə çalışır.  
+            Bakı Dövlət Universitetinin Tətbiqi Riyaziyyat və Kibernetika fakültəsinin tələbəsi olub.  
+            Bakalavr, maqistratura və doktorantura pilləsini uğurlu şəkildə məhz həmin Universitetdə başa vurub.
+          </p>
+          <p>
+            Azərbaycanın ən böyük İT sahələrində (Telecom, Bank və Processing), müxtəlif rəhbər vəzifələrdə çalışıb.  
+            Ən iri Bank sistemləri sayılan Oracle Flexcube və Processing sistemi Tranzaxis TX miqrasiyalarında yaxından iştirak edib, uğurlu nəticələr əldə edib.  
+            Oracle verilənlər bazasının inzibatcılığını, PL/SQL proqramlaşdırma dilini və SQL sorğu dilini mükəmməl bildiyinə görə - Oracle verilənlər bazası üzrə ekspertdir.  
+            Bundan əlavə JAVA üzrə proqramlaşdırma ilə məşğuldur. Həmçinin Linux ƏS və Cloud texnologiyaları üzrə dərin biliklərə malikdir.  
+            Hal-hazırda elmi-praktiki və innovativ fəaliyyətini davam etdirir. Bir neçə elmi əsərlərin müəllifidir və ölkəmizi bir neçə xarici konfranslarda uğurla təmsil edib.
+          </p>
+          <p>Əlaqə: ramin.samedov@gmail.com</p>
+          <p>Ramin Səmədov aşağıdakı mövzular üzrə müvəffəqiyyətlə imtahan vermişdir:</p>
+          <ul>
+            <li>120-007: Introduction to Oracle9i: SQL</li>
+            <li>120-147: Program with PL/SQL</li>
+            <li>120-042: Oracle Database 10g Administration part1</li>
+            <li>120-043: Oracle Database 10g Administration part2</li>
+            <li>120-050: Oracle Database 11g: New Features for Administrators</li>
+            <li>Billing and tarrification</li>
+            <li>CBOSS administration</li>
+            <li>Tieto RTPS administration</li>
+            <li>LPI exam 101 Junior Level Linux Professional</li>
+          </ul>'
+      >
+        <img src="/imgs/raminm.png" alt="Ramin Səmədov" />
+        <div class="author-details">
+          <h3>Ramin Səmədov</h3>
+          <p>PhD in Technical Sciences; Oracle PL/SQL Developer Certified Associate.</p>
+          <p>PL/SQL tam funksional, genişlənə bilən və Oracle mühitinde çalışan proqramlaşdırma dilidir, Oracle verilenler bazası əsasında bizness tətbiqlərinin və xidmətlərinin yaradılmasında proqramçının əvəzedil-məz alətidir.</p>
         </div>
-        <div class="col-md-12">
-          <div class="author-card">
-            <img src="/imgs/rahimm.png" alt="Rahim Əhmədov" />
-            <div class="author-details">
-              <h3>Rahim Əhmədov</h3>
-              <p>Oracle SQL Expert; Oracle PL/SQL OCA.</p>
-              <p>PL/SQL-den istifadə et Oracle verilənlər bazasının Üstünlüklərinindən tam yararlan.</p>
-            </div>
-          </div>
+      </div>
+      
+      <!-- Author Card 3 -->
+      <div class="author-card"
+           data-img="/imgs/rahimmodal.png"
+           data-name="Rahim Əhmədov"
+           data-bio='  <p>
+            2003-cü ildə Azərbaycan Dövlət İqtisad Universitetinin, Beynəlxalq İqtisadi Münasibətlər fakültəsini bitirmişdir.
+          </p>
+          <p>
+            10 ildən çox dövlət sektoru və telekommunikasiya sahəsində informasiya texnologiyaları üzrə iş təcrübəsinə sahibdir. 7 ildən artıq isə telekommunikasiya sahəsində çalışmaqdadır. Əsas fəaliyyət sahəsi biznes kritik sistemlərin dəstəyi, iri hacimli telekom məlumatların emalı və reportlamadır. 2005-ci ildən etibarən Oracle verilənlər bazası ilə tanışdır və intensiv şəkildə istifadə edir.
+          </p>
+          <ul>
+            <li>Oracle SQL Expert</li>
+            <li>Oracle PL/SQL Developer OCA</li>
+          </ul>'
+      >
+        <img src="/imgs/rahimm.png" alt="Rahim Əhmədov" />
+        <div class="author-details">
+          <h3>Rahim Əhmədov</h3>
+          <p>Oracle SQL Expert; Oracle PL/SQL OCA.</p>
+          <p>PL/SQL-dən istifadə et Oracle verilənlər bazasının Üstünlüklərindən tam yararlan.</p>
         </div>
+      </div>
+    </div>
+  
+    <!-- Modal -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <div class="modal-img">
+          <img id="modal-img" src="" alt="" />
+        </div>
+        <div class="modal-text">
+          <h2 id="modal-title"></h2>
+          <!-- Biography content container -->
+          <div id="modal-bio"></div>
+        </div>
+        <span class="close-modal" id="close-modal">&times;</span>
       </div>
     </div>
 
@@ -200,7 +253,7 @@
           <div class="partners-content">
             <img src="/imgs/footerwhiteshape.png" alt="SQL.az" />
             <a href="https://sql.az" target="_blank"><img class="sqlfooter" src="/imgs/sqlfooter.png" /></a>
-            <a href="https://techbridge.az" target="_blank"><img  class="techbridge" src="/imgs/techbridgefooter.png" /></a>
+            <a href="https://techbridge.az" target="_blank"><img class="techbridge" src="/imgs/techbridgefooter.png" /></a>
           </div>
         </div>
       </div>

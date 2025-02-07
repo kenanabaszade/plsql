@@ -238,10 +238,18 @@ body {
 
 .plsql {
   color: white;
+  position: relative;
 }
 .plsql h2 {
   font-size: 100px;
   font-weight: bold;
+}
+
+.plsqlbook {
+  width: 827px;
+  position: absolute;
+  top: -290px;
+  left: -89px;
 }
 
 .plsql p {
@@ -256,11 +264,11 @@ body {
   border-radius: 10px;
   color: #f18d2f;
   border: 1px solid;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
 }
 .plsqlbtn:hover {
   background: #f18d2f;
@@ -269,36 +277,44 @@ body {
 }
 
 .plsqltext {
-  margin-bottom: 240px;
+  margin-bottom: 140px;
+  position: relative;
+  top: -50px;
+  line-height: 25px;
 }
 
 .secondcontent {
   position: relative;
-  top: 85px;
+ 
 }
 
 .downloadbtn {
   border: none;
-  padding: 15px 35px;
+  padding: 15px 52px;
   font-weight: bold;
   border-radius: 10px;
   color: #fff;
   background-color: #1141f3;
   border: 1px solid #1141f3;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.9s ease-in-out;
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -ms-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
 }
 
 .downloadbtn:hover {
-  border: none;
-  padding: 15px 35px;
+  border: none; 
   font-weight: bold;
   border-radius: 10px;
   background-color: #fff;
   color: #1141f3;
   border: 1px solid;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
 }
 
 .sifarisetbtn {
@@ -309,8 +325,11 @@ body {
   color: #fff;
   background-color: transparent;
   border: 1px solid #fff;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
 }
 
 .sifarisetbtn:hover {
@@ -321,8 +340,11 @@ body {
   background-color: #fff;
   color: #1141f3;
   border: 1px solid;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
 }
 
 .author-card {
@@ -345,7 +367,7 @@ body {
   align-items: center;
   gap: 15px;
   margin-bottom: 20px;
-}  
+}
 .author-card img {
   width: 100px;
   height: 100px;
@@ -358,21 +380,34 @@ body {
   height: 100px;
   border-radius: 50%;
   border: 3px solid #ff8c00;
-  padding: 1px;
+  padding: 3px;
 }
 
 .author-details h3 {
   margin: 0;
   font-size: 20px;
+  margin-bottom: 15px !important;
   font-weight: bold;
 }
-author-details {
+
+.author-details {
   padding: 10px;
 }
+
+#navbarNav {
+  flex-grow: 0 !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#navbarNav ul li {
+  padding: 0 25px;
+}
+
 .author-details p {
   font-style: italic;
   font-size: 17px;
-  margin: 5px 0 0;
+  margin: 10px 0 0;
 }
 
 .muellifler h2 {
@@ -408,7 +443,7 @@ author-details {
   font-size: 20px;
   font-weight: bold;
 }
-  
+
 .expand {
   position: absolute;
   bottom: 12px;
@@ -419,7 +454,11 @@ author-details {
   height: 20px;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
   cursor: pointer;
-  transition: width 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
 }
 
 .card {
@@ -444,8 +483,12 @@ author-details {
 .content {
   margin-top: 10px;
   overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
+  transition: all 0.7s ease-in-out;
   max-height: 60px;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
 }
 .expanded {
   max-height: 500px;
@@ -466,15 +509,15 @@ author-details {
   max-height: 56.4px;
   line-height: 20px;
   overflow: hidden;
-  transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 .hideablecontent.expanded {
- max-height: 500px;  
+  max-height: 500px;
 }
 
 .expanded.expand {
@@ -483,12 +526,12 @@ author-details {
   height: 25px;
 }
 
-.footer {  
+.footer {
   text-align: center;
 }
 
 .partners-section {
-  position: relative; 
+  position: relative;
   padding-top: 30px;
   background-image: url("/imgs/footerrectangle.png");
   background-repeat: no-repeat;
@@ -499,27 +542,25 @@ author-details {
 }
 
 .partners-container {
-  position: relative; 
+  position: relative;
   width: 100%;
   padding: 40px 0;
   text-align: center;
 }
 
- 
 .partners-content img {
-  height: 400px;
+  height: 350px;
   margin: 0 15px; /* Adjust margin between logos */
 }
 
 .partners-title {
-  color: #fff;  
+  color: #fff;
   padding-top: 70px;
   font-size: 48px;
   font-weight: bold;
   text-align: start;
   margin-bottom: 20px;
 }
- 
 
 .social-icons {
   margin-top: 10px;
@@ -533,19 +574,42 @@ author-details {
   text-decoration: none;
 }
 
-
 .sqlfooter {
-  width: 200px;
-  left: -100px;
+  width: 185px;
+  left: -52px;
   position: relative !important;
   height: 100% !important;
   top: -276px;
 }
 
 .techbridge {
-  width: 430px;
-  right: -100px;
+  width: 402px;
+  right: -63px;
   position: relative !important;
   height: 100% !important;
-  top: -276px;
+  top: -245px;
+}
+
+
+#firstcontent ,#secondcontent{
+  transition: all  0.4s ease-in-out;
+  -webkit-transition: all  0.4s ease-in-out;
+  -moz-transition: all  0.4s ease-in-out;
+  -ms-transition: all  0.4s ease-in-out;
+  -o-transition: all  0.4s ease-in-out;
+}
+
+#firstcontent.active {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+#secondcontent.active {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }

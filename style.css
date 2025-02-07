@@ -271,8 +271,6 @@ body {
   align-items: center;
 }
 
- 
-
 .close-modal {
   cursor: pointer;
   position: absolute;
@@ -454,7 +452,7 @@ body {
 #modal-bio ul li {
   list-style: disc;
 }
- 
+
 .modal-content {
   background: #fff;
   border-radius: 8px;
@@ -524,7 +522,7 @@ body {
 }
 #modal-bio a:hover {
   text-decoration: underline;
-} 
+}
 .close-modal {
   position: absolute;
   top: 10px;

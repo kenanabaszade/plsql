@@ -252,6 +252,14 @@ body {
   left: -89px;
 }
 
+.phoneicon {
+  width: 21px;
+  position: relative;
+  top: 4px;
+  left: -4px;
+}
+
+
 .plsql p {
   padding: 60px 0;
   font-size: 21px;

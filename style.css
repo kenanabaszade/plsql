@@ -741,14 +741,14 @@ body {
   -o-transform: scale(1.1);
 }
 /* ===== Responsive CSS ===== */
- 
-@media (max-width: 992px) { 
+
+@media (max-width: 992px) {
   .plsql h2 {
     font-size: 60px;
   }
   .plsql p {
     font-size: 18px;
-  } 
+  }
   .plsqlbtn,
   .downloadbtn,
   .sifarisetbtn {
@@ -756,34 +756,84 @@ body {
     font-size: 16px;
   }
 }
- 
-@media (max-width: 768px) { 
+.bazaimage {
+  width: 100%;
+}
+@media (max-width: 768px) {
   .plsql {
     flex-direction: column !important;
     text-align: center;
+  } 
+.plsqlbtn {
+  margin-top: 10px;
+}
+  .plsqltext {
+    margin: 0;
   }
+  .partners-container {
+    padding:0;
+  }
+  .techbridge {
+    width: 200px !important;
+  }
+  .sqlfooter {
+    width: 100px !important;
+  }
+
+  .plsqltext {
+    position: relative;
+    top: 0;
+    padding-top: 20px !important;
+    color: black; 
+    line-height: 25px;
+  }
+
   .plsql .col-6 {
     width: 100% !important;
     max-width: 100% !important;
-    padding: 0 15px;
-    margin-bottom: 20px;
-  } 
+    padding: 0 15px; 
+  }
+
+  .secondcontentbtn {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .author-details h3 {
+    margin: 0 auto;
+  }
+  .sifarisetbtn {
+    color: black;
+    border-color: black;
+  }
+
   .plsqlbook {
     position: relative;
     top: 0;
-    left: 0;
-    width: 100%;
-    max-width: 300px;
-    margin: 20px auto;
-  } 
+    left: 32px;
+    width: 100%; 
+    margin: 0 auto;
+  }
+  #firstcontent.active {
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+}
+
+  .plsql p {
+    padding: 0;
+  }
+
   .bgimage::before {
     top: 0;
     height: auto;
-  } 
+  }
   #navbarNav ul li {
     padding: 0 10px;
     font-size: 16px;
-  } 
+  }
   .author-card,
   .author-card2 {
     flex-direction: column !important;
@@ -795,7 +845,7 @@ body {
     width: 80px;
     height: 80px;
     margin-bottom: 10px;
-  } 
+  }
   .modal-content {
     width: 90%;
     flex-direction: column;
@@ -803,7 +853,7 @@ body {
   .modal-img,
   .modal-text {
     width: 100%;
-  } 
+  }
   .partners-section {
     height: auto;
     padding: 30px 0;
@@ -813,29 +863,40 @@ body {
     max-width: 100%;
     margin: 10px auto;
   }
+  .partners-section {
+    padding: 0;
+  }
+  .muellifler h2 {
+    font-size: 25px;
+  }
+
+.navheader {
+  padding: 0;
+}
+
   .sqlfooter,
   .techbridge {
     position: relative;
     width: 80%;
-    top: 0;
+    top: -120px;
     left: 0;
     margin: 20px auto;
   }
 }
- 
-@media (max-width: 576px) { 
+
+@media (max-width: 576px) {
   .plsql h2 {
     font-size: 40px;
   }
   .plsql p {
     font-size: 16px;
-  } 
+  }
   .plsqlbtn,
   .downloadbtn,
   .sifarisetbtn {
     padding: 10px 15px;
     font-size: 14px;
-  } 
+  }
   .navbar-brand img {
     height: 30px;
   }

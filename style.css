@@ -208,15 +208,18 @@ body {
   height: 100%;
   overflow: hidden;
 }
+#firstcontent {
+  padding-top: 23px;
+}
 
 .bgimage::before {
   content: "";
   position: absolute;
-  top: -346px;
+  top: -378px;
   left: 0;
   z-index: -1;
   width: 100%;
-  height: 1138px;
+  height: 1000px;
   background-image: url("./imgs/plsqlvector.png");
   background-size: cover;
   background-position: center;

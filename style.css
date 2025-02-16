@@ -782,7 +782,9 @@ body {
     flex-direction: column !important;
     text-align: center;
   }
-
+  .modal-img {
+    display: none;
+  }
   .bazaimage {
     display: none;
   }

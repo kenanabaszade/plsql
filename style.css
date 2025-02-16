@@ -290,6 +290,7 @@ body {
 .plsqlbtn {
   border: none;
   padding: 15px 35px;
+  position: relative;
   font-weight: bold;
   border-radius: 10px;
   color: #f18d2f;
@@ -460,6 +461,7 @@ body {
   background: #fff;
   border-radius: 8px;
   width: 66%;
+  height: 85%;
   flex-direction: row;
   display: flex;
   overflow: hidden;
@@ -744,13 +746,26 @@ body {
   -o-transform: scale(1.1);
 }
 /* ===== Responsive CSS ===== */
+.desktopphone {
+  display: block;
+}
 
+.mobilphone {
+  display: none !important;
+}
 @media (max-width: 992px) {
   .plsql h2 {
     font-size: 60px;
   }
   .plsql p {
     font-size: 18px;
+  }
+  .desktopphone {
+    display: none !important;
+  }
+
+  .mobilphone {
+    display: block !important;
   }
   .plsqlbtn,
   .downloadbtn,
@@ -766,15 +781,19 @@ body {
   .plsql {
     flex-direction: column !important;
     text-align: center;
-  } 
-.plsqlbtn {
-  margin-top: 10px;
-}
+  }
+
+  .bazaimage {
+    display: none;
+  }
+  .plsqlbtn {
+    margin-top: 10px;
+  }
   .plsqltext {
     margin: 0;
   }
   .partners-container {
-    padding:0;
+    padding: 0;
   }
   .techbridge {
     width: 200px !important;
@@ -787,14 +806,14 @@ body {
     position: relative;
     top: 0;
     padding-top: 20px !important;
-    color: black; 
+    color: black;
     line-height: 25px;
   }
 
   .plsql .col-6 {
     width: 100% !important;
     max-width: 100% !important;
-    padding: 0 15px; 
+    padding: 0 15px;
   }
 
   .secondcontentbtn {
@@ -814,7 +833,7 @@ body {
     position: relative;
     top: 0;
     left: 32px;
-    width: 100%; 
+    width: 100%;
     margin: 0 auto;
   }
   #firstcontent.active {
@@ -823,7 +842,7 @@ body {
     -moz-transform: none !important;
     -ms-transform: none !important;
     -o-transform: none !important;
-}
+  }
 
   .plsql p {
     padding: 0;
@@ -873,9 +892,9 @@ body {
     font-size: 25px;
   }
 
-.navheader {
-  padding: 0;
-}
+  .navheader {
+    padding: 0;
+  }
 
   .sqlfooter,
   .techbridge {

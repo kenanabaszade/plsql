@@ -291,6 +291,7 @@ body {
   border: none;
   padding: 15px 35px;
   position: relative;
+  z-index: 989999;
   font-weight: bold;
   border-radius: 10px;
   color: #f18d2f;

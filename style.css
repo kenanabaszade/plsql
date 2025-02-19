@@ -386,6 +386,7 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
+  cursor: pointer;
   margin-bottom: 20px;
 }
 .author-card2 {
